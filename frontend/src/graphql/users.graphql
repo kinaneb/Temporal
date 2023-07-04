@@ -1,7 +1,0 @@
-query getUsers {
-  users(order_by: { displayName: asc }) {
-    id
-    metadata
-    displayName
-  }
-}
